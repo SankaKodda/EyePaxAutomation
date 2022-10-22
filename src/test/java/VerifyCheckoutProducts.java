@@ -7,6 +7,7 @@ public class VerifyCheckoutProducts extends CheckoutProductSteps {
         clickSignInButton();
         login();
         clickShoppingInWomenCategory();
+        clickOnaItem();
         clickAddToCart();
         clickProceedToCart();
         clickProceedToCheckoutToSummary();

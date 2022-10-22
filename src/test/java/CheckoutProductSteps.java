@@ -11,11 +11,20 @@ public class CheckoutProductSteps extends VerifyLogin {
         }
         Thread.sleep(5000);
     }
+    public static void clickOnaItem() throws InterruptedException {
+        try {
+            //Click Add to Cart a Blouse
+            driver.findElement(By.xpath("(//a[@class='product_img_link'])[2]")).click();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Thread.sleep(5000);
+    }
 
     public static void clickAddToCart() throws InterruptedException {
         try {
             //Click Add to Cart a Blouse
-            driver.findElement(By.xpath("(//a[@class='button ajax_add_to_cart_button btn btn-default'])[2]")).click();
+            driver.findElement(By.xpath("//button[@class='exclusive']")).click();
         } catch (Exception e) {
             e.printStackTrace();
         }
