@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15215c5a-328b-4c8d-b241-4a0166a2686d" name="Changes" comment="AddingCustomer">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckoutProductSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyCheckoutProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyLogin.java" afterDir="false" />
+    <list default="true" id="15215c5a-328b-4c8d-b241-4a0166a2686d" name="Changes" comment="Login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AddingPersonalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddingPersonalDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tc_VerifyAUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tc_VerifyAUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VerifyUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyUserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VerifyCheckoutProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyCheckoutProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VerifyLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,36 @@
       <recent name="C:\Users\SankaKodda\IdeaProjects\EyepaxAutomation" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.VerifyLogin">
+    <configuration name="Tc_VerifyAUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tc_VerifyAUser" />
+      <module name="EyepaxAutomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCheckoutProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VerifyCheckoutProducts" />
+      <module name="EyepaxAutomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VerifyLogin" />
+      <module name="EyepaxAutomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VerifyLogin" />
+        <item itemvalue="Application.VerifyCheckoutProducts" />
+        <item itemvalue="Application.Tc_VerifyAUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666413727607</updated>
       <workItem from="1666413729676" duration="4414000" />
-      <workItem from="1666419762397" duration="4081000" />
+      <workItem from="1666419762397" duration="4858000" />
     </task>
     <task id="LOCAL-00001" summary="EyePaxAutomation">
       <created>1666413866761</created>
@@ -76,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666418093152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login">
+      <created>1666423875716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666423875716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EyePaxAutomation" />
     <MESSAGE value="AddingCustomer" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddingCustomer" />
+    <MESSAGE value="Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login" />
   </component>
 </project>

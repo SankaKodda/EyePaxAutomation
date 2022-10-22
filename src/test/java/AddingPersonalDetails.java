@@ -27,6 +27,7 @@ public class AddingPersonalDetails extends VerifyUserSteps {
         enterCustomerMobilePhoneNumber();
         enterCustomerFutureAliasAddress();
         clickRegisterButton();
+        signOut();
     }
 
     public static void selectTitle() throws InterruptedException {

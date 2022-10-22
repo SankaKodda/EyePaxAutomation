@@ -1,5 +1,5 @@
 import org.openqa.selenium.By;
-public class LoginSteps extends VerifyUserSteps{
+public class LoginSteps extends Tc_VerifyAUser{
     public static void enterValidEmail() throws InterruptedException {
         // Enter Valid Username
         driver.findElement(By.id("email")).clear();
@@ -10,8 +10,8 @@ public class LoginSteps extends VerifyUserSteps{
 
     public static void enterValidPassword() throws InterruptedException {
         //Enter Valid Password
-        driver.findElement(By.id("password")).clear();
-        driver.findElement(By.id("password")).sendKeys("sankakodi");
+        driver.findElement(By.id("passwd")).clear();
+        driver.findElement(By.id("passwd")).sendKeys("sankakodi");
         System.out.println("Enter Valid Password");
         Thread.sleep(5000);
 

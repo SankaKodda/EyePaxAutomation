@@ -1,7 +1,7 @@
 public class VerifyLogin extends LoginSteps {
     public static void main(String[] args) throws InterruptedException {
-        openBrowser();
-        maximizeBrowser();
+        openWebLink();
+        clickSignInButton();
         login();
     }
     public static void login() throws InterruptedException {
