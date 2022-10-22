@@ -26,14 +26,15 @@ public class AddingPersonalDetails extends VerifyUserSteps {
         enterCustomerHomePhoneNumber();
         enterCustomerMobilePhoneNumber();
         enterCustomerFutureAliasAddress();
+        clickRegisterButton();
     }
 
     public static void selectTitle() throws InterruptedException {
         try {
             //Click Title if Mr
-            driver.findElement(By.id("uniform-id_gender1")).click();
+            driver.findElement(By.id("id_gender1")).click();
             //Click Title if Mrs
-//            driver.findElement(By.id("uniform-id_gender2")).click();
+//            driver.findElement(By.id("id_gender2")).click();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -143,7 +144,7 @@ public class AddingPersonalDetails extends VerifyUserSteps {
         try {
             //Enter Customer FirstName
             driver.findElement(By.id("firstname")).clear();
-            driver.findElement(By.id("firstname")).sendKeys("Sanka1");
+            driver.findElement(By.id("firstname")).sendKeys("Sanka");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -154,7 +155,7 @@ public class AddingPersonalDetails extends VerifyUserSteps {
         try {
             //Enter Customer LastName
             driver.findElement(By.id("lastname")).clear();
-            driver.findElement(By.id("lastname")).sendKeys("Kodippily1");
+            driver.findElement(By.id("lastname")).sendKeys("Kodippily");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -208,7 +209,7 @@ public class AddingPersonalDetails extends VerifyUserSteps {
     public static void selectCustomerState() throws InterruptedException {
         try {
             //Select Customer's State
-            Select dropdown = new Select(driver.findElement(By.id("years")));
+            Select dropdown = new Select(driver.findElement(By.id("id_state")));
             dropdown.selectByVisibleText("New York");
         } catch (Exception e) {
             e.printStackTrace();
@@ -291,6 +292,7 @@ public class AddingPersonalDetails extends VerifyUserSteps {
         }
         Thread.sleep(5000);
     }
+
 
 
 }

@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15215c5a-328b-4c8d-b241-4a0166a2686d" name="Changes" comment="EyePaxAutomation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddingPersonalDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyUserSteps.java" afterDir="false" />
+    <list default="true" id="15215c5a-328b-4c8d-b241-4a0166a2686d" name="Changes" comment="AddingCustomer">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckoutProductSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyCheckoutProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddingPersonalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddingPersonalDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tc_VerifyAUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tc_VerifyAUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VerifyUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyUserSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/SankaKodda/IdeaProjects/EyepaxAutomation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SankaKodda/IdeaProjects/EyepaxAutomation&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SankaKodda\IdeaProjects\EyepaxAutomation" />
@@ -56,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666413727607</updated>
-      <workItem from="1666413729676" duration="4075000" />
+      <workItem from="1666413729676" duration="4414000" />
+      <workItem from="1666419762397" duration="4081000" />
     </task>
     <task id="LOCAL-00001" summary="EyePaxAutomation">
       <created>1666413866761</created>
@@ -65,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666413866761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AddingCustomer">
+      <created>1666418093152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666418093152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EyePaxAutomation" />
-    <option name="LAST_COMMIT_MESSAGE" value="EyePaxAutomation" />
+    <MESSAGE value="AddingCustomer" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddingCustomer" />
   </component>
 </project>

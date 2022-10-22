@@ -57,7 +57,15 @@ public class VerifyUserSteps  {
         }
         Thread.sleep(5000);
     }
-
+public static void signOut() throws InterruptedException {
+    try {
+        //Click Create an account button
+        driver.findElement(By.xpath("//a[@class='logout']")).click();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    Thread.sleep(5000);
+}
 
     public static void closeBrowser(){
 
